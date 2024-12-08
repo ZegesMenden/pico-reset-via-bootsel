@@ -1,0 +1,8 @@
+
+add_library(reset_via_bootsel INTERFACE)
+
+target_link_libraries(reset_via_bootsel INTERFACE 
+    pico_stdlib)
+
+target_sources(reset_via_bootsel INTERFACE ${CMAKE_CURRENT_LIST_DIR}/reset_via_bootsel.c)
+target_include_directories(reset_via_bootsel INTERFACE ${CMAKE_CURRENT_LIST_DIR})

@@ -1,0 +1,27 @@
+# Ignore build directories
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Ignore Pico SDK generated files
+*.elf
+*.bin
+*.hex
+*.uf2
+*.map
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore dependency files
+*.d
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore Visual Studio Code settings
+.vscode/
